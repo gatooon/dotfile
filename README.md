@@ -1,8 +1,11 @@
-Dependencies:
+Dependencies:<br/>
 alacritty xwayland-satellite fuzzel mako swaybg swaylock
 
-Git Projects:
+Git Projects:<br/>
 https://github.com/alacritty/alacritty-theme.git ---- config/alacritty/themes
+
+Font:<br/>
+0xProto Nerd Font: https://www.nerdfonts.com/font-downloads
 
 Commands:
 ```
