@@ -8,6 +8,8 @@
 // https://github.com/YaLTeR/niri/wiki/Configuration:-Input
 
 spawn-at-startup "xwayland-satellite"
+spawn-at-startup "gsettings set org.gnome.desktop.interface color-scheme prefer-dark"
+
 environment {
     DISPLAY ":1"
 }

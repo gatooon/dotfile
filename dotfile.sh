@@ -42,16 +42,20 @@ dotfileInstall(){
     setupLink $DOTFILE_HOME_DIR/.vimrc $HOME_DIR/.vimrc
 
     setupLink $DOTFILE_CONFIG_DIR/gtk-3.0/ $CONFIG_DIR/gtk-3.0
+    setupLink $DOTFILE_CONFIG_DIR/gtk-3.0/ $CONFIG_DIR/gtk-4.0
     setupLink $DOTFILE_CONFIG_DIR/niri/ $CONFIG_DIR/niri
     setupLink $DOTFILE_CONFIG_DIR/alacritty/ $CONFIG_DIR/alacritty
+    setupLink $DOTFILE_CONFIG_DIR/waybar/ $CONFIG_DIR/waybar
 }
 
 dotfileRemove(){
     removeLink $DOTFILE_BACKUP_DIR/.vimrc $HOME_DIR/.vimrc
 
     removeLink $DOTFILE_BACKUP_DIR/gtk-3.0 $CONFIG_DIR/gtk-3.0
+    removeLink $DOTFILE_BACKUP_DIR/gtk-4.0 $CONFIG_DIR/gtk-4.0
     removeLink $DOTFILE_BACKUP_DIR/niri $CONFIG_DIR/niri
     removeLink $DOTFILE_BACKUP_DIR/alacritty $CONFIG_DIR/alacritty
+    removeLink $DOTFILE_BACKUP_DIR/waybar $CONFIG_DIR/waybar
 }
 
 case "$1" in

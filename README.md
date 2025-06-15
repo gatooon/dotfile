@@ -1,5 +1,5 @@
 Dependencies:<br/>
-alacritty xwayland-satellite fuzzel mako swaybg swaylock zsh
+alacritty xwayland-satellite fuzzel mako swaybg swaylock zsh adw-gtk-theme nautilus gradience
 
 Git Projects:<br/>
 https://github.com/alacritty/alacritty-theme.git ---- config/alacritty/themes

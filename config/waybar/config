@@ -1,0 +1,28 @@
+{
+    "layer": "top",
+    "position": "top",
+    "mod": "dock",
+    "exclusive": true,
+    "passthrough": false,
+    "gtk-layer-shell": true,
+    "height": 36,
+
+    "modules-right": ["tray", "battery"],
+
+    "tray": {
+        "icon-size": 21,
+	      "spacing": 10
+    },
+
+    "battery": {
+        "states": {
+            "good": 70,
+            "warning": 40,
+            "critical": 20
+        },
+        "format": "{icon} {capacity}%",
+        "format-charging": "󰂅 {capacity}%",
+        "format-plugged": " {capacity}%",
+        "format-icons": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"]
+    }
+}
