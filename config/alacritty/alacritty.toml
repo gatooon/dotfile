@@ -1,0 +1,8 @@
+[general]
+import = [
+    "~/.config/alacritty/themes/alacritty-theme/themes/miasma.toml"
+]
+
+[font]
+size = 15.0
+normal = { family = "0xProtoNerdFont" }
