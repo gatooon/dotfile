@@ -1,5 +1,5 @@
 Dependencies:<br/>
-alacritty xwayland-satellite fuzzel mako swaybg swaylock
+alacritty xwayland-satellite fuzzel mako swaybg swaylock zsh
 
 Git Projects:<br/>
 https://github.com/alacritty/alacritty-theme.git ---- config/alacritty/themes

@@ -6,3 +6,6 @@ import = [
 [font]
 size = 15.0
 normal = { family = "0xProtoNerdFont" }
+
+[terminal]
+shell = "zsh"
