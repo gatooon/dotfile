@@ -7,11 +7,18 @@
     "gtk-layer-shell": true,
     "height": 36,
 
-    "modules-right": ["tray", "battery"],
+    "modules-right": ["tray", "battery",],
+
+    "modules-center": ["clock",],
 
     "tray": {
         "icon-size": 21,
 	      "spacing": 10
+    },
+
+    "clock": {
+        "interval": 60,
+        "format": "󱑀  {:%H:%M}",
     },
 
     "battery": {
