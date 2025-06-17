@@ -7,7 +7,7 @@
     "gtk-layer-shell": true,
     "height": 36,
 
-    "modules-right": ["tray", "pulseaudio", "battery",],
+    "modules-right": ["tray", "pulseaudio", "battery","custom/power"],
 
     "modules-center": ["clock"],
 
@@ -51,5 +51,11 @@
         },
         "on-click-right": "pavucontrol -t 3",
         "on-click": "pactl -- set-sink-mute 0 toggle"
-    }
+    },
+    
+    "custom/power": {
+        "format": "",
+        "on-click": "~/.config/rofi/powermenu/type-5/powermenu.sh",
+        "tooltip": false
+    },
 }
