@@ -47,6 +47,7 @@ dotfileInstall(){
     setupLink $DOTFILE_CONFIG_DIR/alacritty/ $CONFIG_DIR/alacritty
     setupLink $DOTFILE_CONFIG_DIR/waybar/ $CONFIG_DIR/waybar
     setupLink $DOTFILE_CONFIG_DIR/rofi/ $CONFIG_DIR/rofi
+    setupLink $DOTFILE_CONFIG_DIR/swaylock/ $CONFIG_DIR/swaylock
 }
 
 dotfileRemove(){
@@ -58,6 +59,7 @@ dotfileRemove(){
     removeLink $DOTFILE_BACKUP_DIR/alacritty $CONFIG_DIR/alacritty
     removeLink $DOTFILE_BACKUP_DIR/waybar $CONFIG_DIR/waybar
     removeLink $DOTFILE_BACKUP_DIR/rofi $CONFIG_DIR/rofi
+    removeLink $DOTFILE_BACKUP_DIR/swaylock $CONFIG_DIR/swaylock
 }
 
 case "$1" in

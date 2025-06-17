@@ -1,5 +1,5 @@
 Dependencies:<br/>
-waybar alacritty xwayland-satellite fuzzel mako swaybg swaylock zsh adw-gtk-theme nautilus gradience network-manager-applet blueman pulseaudio rofi gnome-calendar
+waybar alacritty xwayland-satellite fuzzel mako swaybg swaylock-effects zsh adw-gtk-theme nautilus gradience network-manager-applet blueman pulseaudio rofi gnome-calendar
 
 Git Projects:<br/>
 https://github.com/alacritty/alacritty-theme.git ---- config/alacritty/themes
