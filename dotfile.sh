@@ -48,6 +48,7 @@ dotfileInstall(){
     setupLink $DOTFILE_CONFIG_DIR/waybar/ $CONFIG_DIR/waybar
     setupLink $DOTFILE_CONFIG_DIR/rofi/ $CONFIG_DIR/rofi
     setupLink $DOTFILE_CONFIG_DIR/swaylock/ $CONFIG_DIR/swaylock
+    setupLink $DOTFILE_CONFIG_DIR/fuzzel/ $CONFIG_DIR/fuzzel
 }
 
 dotfileRemove(){
@@ -60,6 +61,7 @@ dotfileRemove(){
     removeLink $DOTFILE_BACKUP_DIR/waybar $CONFIG_DIR/waybar
     removeLink $DOTFILE_BACKUP_DIR/rofi $CONFIG_DIR/rofi
     removeLink $DOTFILE_BACKUP_DIR/swaylock $CONFIG_DIR/swaylock
+    removeLink $DOTFILE_BACKUP_DIR/fuzzel $CONFIG_DIR/fuzzel
 }
 
 case "$1" in
