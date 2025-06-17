@@ -10,6 +10,7 @@
 spawn-at-startup "xwayland-satellite"
 spawn-at-startup "gsettings set org.gnome.desktop.interface color-scheme prefer-dark"
 spawn-at-startup "nm-applet --indicator"
+spawn-at-startup "blueman-applet"
 
 environment {
     DISPLAY ":1"
