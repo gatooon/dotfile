@@ -19,6 +19,9 @@
     "clock": {
         "interval": 60,
         "format": "󱑀  {:%H:%M}",
+        "tooltip": true,
+        "tooltip-format": "{:%d-%m-%Y}",
+        "on-click": "gnome-calendar"
     },
 
     "battery": {
